@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/backgr_app"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TutorialGuideFragment">
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="@string/tv_content_tutorial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_tutorial"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first"
+        app:layout_constraintBottom_toTopOf="@id/tab_select"
+        tools:listitem="@layout/item_tutorial_view"
+        />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tabBackground="@drawable/tav_selector"
+        android:layout_marginBottom="10dp"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

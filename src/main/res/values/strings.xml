@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Serena</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Serena APP</string>
+    <string name="second_fragment_label">Selecciona una opcion</string>
+    <string name="fragment_tutorial_guide_label">Imagenes Guiadas</string>
+    <string name="fragment_tutorial_breathing_box_label">Caja de Respiracion</string>
+    <string name="fragment_tutorial_circle_label">Dibuja Circulos Calmantes</string>
+    <string name="fragment_tutorial_connects_sense">Conectando Con Tus Sentidos</string>
+
+    <string name="next">Siguiente</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Una aplicación que te aportara múltiples beneficios para tu nuestra salud, reduciendo nuestros niveles de estrés y ansiedad, mediante técnicas de relajación. \nLas técnicas de relajación suelen incluir concentración y conciencia.\n La idea es centrar la atención en algo que te calme y tener conciencia de tu cuerpo.
+    </string>
+
+    <string name="tv_content_tutorial">
+       En este ejercicio de relajación, usarás tu imaginación para ayudarte a lograr una paz profunda.\n\n Es posible que desees hacer esto al comienzo de tu día o antes de acostarte.\n Trata de evitar hacerlo en momentos en que necesites estar completamente alerta.\n\nTambién es importante elegir un momento del día en el que no te interrumpan personas, dispositivos o ruidos fuertes.
+    </string>
+
+    <string name="tv_content_tutorial_box_breathing">
+       Es una técnica de control de la respiración que involucra cuatro fases iguales: inhalación, retención, exhalación y retención con los pulmones vacíos.\nEsta técnica se utiliza para reducir el estrés, mejorar la concentración y facilitar el sueño.
+    </string>
+
+    <string name="tv_content_tutorial_connects_senses">
+       Este ejercicio de alivio de la ansiedad te ayuda a concentrarse en el momento y distrae tu mente de lo que te hace sentir ansioso.\n\nPuedes hacer esta técnica en cualquier lugar, y si no encuentras nada a mano, también puedes imaginar estos objetos.
+    </string>
+
+    <string name="tv_content_circles">
+        Esta técnica de relajación consiste en sentarse y utilizar una hoja de papel en blanco.\nTambién necesitarás una lapicera o un lápiz.\nPuedes hacer este ejercicio en cualquier momento en que sentís que tu ansiedad aumenta.\n objetivo del ejercicio de relajación es concentrarse en el movimiento del dibujo, en lugar de hacerlo a la perfección o hacer que se vea lindo.\nTambién puedes intentar hacerlo con tu mano no dominante
+    </string>
+
+    <string name="title_welcome">¡Hola soy Serena!</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

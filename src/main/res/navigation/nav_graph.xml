@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.serena.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_tutorialGuideFragment2"
+            app:destination="@id/tutorialGuideFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.serena.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/action_SecondFragment_to_tutorialGuideFragment"
+            app:destination="@id/tutorialGuideFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_breathingBoxFragment"
+            app:destination="@id/breathingBoxFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_calmingCirclesTutorialFragment"
+            app:destination="@id/calmingCirclesTutorialFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_connectsSensesFragment"
+            app:destination="@id/connectsSensesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialGuideFragment"
+        android:name="com.example.serena.TutorialGuideFragment"
+        android:label="@string/fragment_tutorial_guide_label"
+        tools:layout="@layout/fragment_tutorial_guide" />
+    <fragment
+        android:id="@+id/breathingBoxFragment"
+        android:name="com.example.serena.BreathingBoxFragment"
+        android:label="@string/fragment_tutorial_breathing_box_label"
+        tools:layout="@layout/fragment_breathing_box" />
+    <fragment
+        android:id="@+id/calmingCirclesTutorialFragment"
+        android:name="com.example.serena.CalmingCirclesTutorialFragment"
+        android:label="@string/fragment_tutorial_circle_label"
+        tools:layout="@layout/fragment_calming_circles_tutorial" />
+    <fragment
+        android:id="@+id/connectsSensesFragment"
+        android:name="com.example.serena.ConnectsSensesFragment"
+        android:label="@string/fragment_tutorial_connects_sense"
+        tools:layout="@layout/fragment_connects_senses" />
+</navigation>
